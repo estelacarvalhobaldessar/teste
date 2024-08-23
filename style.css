@@ -1,12 +1,12 @@
 .container{
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(128, 128, 128);
     display: grid;
     grid-template-columns: repeat(3,33.3%);
     grid-template-rows: repeat(3,auto);
     gap: 3px;
 }
 header{
-    background-color: rgb(187, 88, 88);
+    background-color: rgb(134, 134, 134);
     height: 200px;
     grid-row-start: 1;
     grid-column-start: 1;
@@ -22,13 +22,39 @@ main{
     grid-column-end: 4;
 }
 main h1{
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 footer{
     display: grid;
     grid-template-columns: repeat(3,100%);
     grid-template-rows: repeat(1,auto);
     gap: 1px;
+}
+footer section .conteudo{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(1,auto);
+    gap: 1px;
+}
+footer section .conteudo .conteudo-imag{
+    background-color: blueviolet;
+    height: 200px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+}
+footer section .conteudo .conteudo-imag img{
+    height: 200px;
+    margin-left: -170px;
+}
+footer section .conteudo .conteudo-texto{
+    background-color: rgb(49, 226, 43);
+    height: 200px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
 }
 .left-footer{
     background-color: brown;
@@ -53,10 +79,6 @@ footer{
     grid-column-start: 3;
     grid-row-end: 4;
     grid-column-end: 4;
-}
-img{
-    height: 200px;
-    margin-top: 10px;
 }
 header h1{
     text-align: center;
