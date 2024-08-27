@@ -49,7 +49,7 @@ footer section .conteudo .conteudo-imag img{
     margin-left: -170px;
 }
 footer section .conteudo .conteudo-texto{
-    background-color: rgb(49, 226, 43);
+    background-color: rgb(134, 134, 134);
     height: 200px;
     grid-row-start: 1;
     grid-column-start: 2;
@@ -57,7 +57,7 @@ footer section .conteudo .conteudo-texto{
     grid-column-end: 3;
 }
 .left-footer{
-    background-color: brown;
+    background-color: rgb(134, 134, 134);
     height: 200px;
     grid-row-start: 3;
     grid-column-start: 1;
@@ -65,7 +65,7 @@ footer section .conteudo .conteudo-texto{
     grid-column-end: 2;
 }
 .center-footer{
-    background-color: chartreuse;
+    background-color: rgb(134, 134, 134);
     height: 200px;
     grid-row-start: 3;
     grid-column-start: 2;
@@ -73,7 +73,7 @@ footer section .conteudo .conteudo-texto{
     grid-column-end: 3;
 }
 .right-footer{
-    background-color: chocolate;
+    background-color: rgb(134, 134, 134);
     height: 200px;
     grid-row-start: 3;
     grid-column-start: 3;
